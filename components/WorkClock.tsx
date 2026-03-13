@@ -97,7 +97,7 @@ function ClockPanel({ zone, now }: { zone: ClockZone; now: Date | null }) {
       <div
         className="tracking-widest leading-none text-center"
         style={{
-          fontSize: "clamp(4rem, 16vw, 18rem)",
+          fontSize: "clamp(2rem, 5.5vw, 7rem)",
           color: "#57ff2a",
           textShadow:
             "0 0 6px rgba(87,255,42,1), 0 0 20px rgba(87,255,42,0.6), 0 0 60px rgba(87,255,42,0.2)",
